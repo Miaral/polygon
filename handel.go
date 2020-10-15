@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Uppermove Define,polygon moves from top to bottom
 func Uppermove(head []Header, notpack int, packed int, height float32) (float32, float32, float32, float32) {
 	var minmove = height
 	var mincurrentheight float32
